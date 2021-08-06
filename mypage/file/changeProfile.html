@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/changeProfileStyle.css">
+    <title>프로필 변경 | 다모여 </title>
+</head>
+
+<body>
+    <div id="container">
+        <div class="list">
+            <table width="70%" cellspacing="0" border="1">
+                <caption>프로필 변경</caption>
+                <colgroup>
+                    <col width="150">
+                    <col width="*">
+                    <col width="120">
+                </colgroup>
+                <tbody>
+                    <tr>
+                        <th>
+                            <label>프로필 사진</label>
+                        </th>
+                        <td>
+                            <input type="text" class="input" placeholder="*이미지를 첨부해주세요.">
+                        </td>
+                        <td>
+                            <button class="set" onclick="">파일 선택</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label>휴대전화</label>
+                        </th>
+                        <td>
+                            <input type="text" class="input">
+                        </td>
+                        <td>
+                            <button class="set" onclick="">인증번호 받기</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label>주소</label>
+                        </th>
+                        <td>
+                            <input type="text" class="input addr">
+                        </td>
+                        <td>
+                            <button class="set" onclick="">주소 검색</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+                <button id="ok" onclick="alert('프로필이 변경되었습니다.')">확인</button>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

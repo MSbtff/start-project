@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/indexStyle.css">
+    <title>마이페이지 | 다모여</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-text">
+            <div id="left-space"></div>
+            <div id="center-text">
+                <div id="little-text">원하는 동아리 역으로</div>
+                <p>원동력</p>
+            </div>
+            <div class="header-bar">
+                <ul class="header-bar-right">
+                    <li>ooo님</li>
+                    <li>
+                        <p><a href="../mypage/mypage.html" style="text-decoration: none; color: white;">마이페이지</a></p>
+                    </li>
+                    <li>
+                        <p><a href="../login/login/login.html" style="text-decoration: none; color: white;">로그아웃</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="nav-bar">
+            <ul class="nav-bar-l">
+                <li><a href="../main/main_yes.html" style="text-decoration: none; color: white;">홈</a></li>
+                <div class="nav-bar-line"></div>
+                <li><a href="#" style="text-decoration: none; color: white;">동아리</a></li>
+                <div class="nav-bar-line"></div>
+                <li><a href="../community/community.html" style="text-decoration: none; color: white;">커뮤니티</a></li>
+                <div class="nav-bar-line"></div>
+                <li><a href="../Info/info.html" style="text-decoration: none; color: white;">홍보</a></li>
+                <div class="nav-bar-line"></div>
+                <li><a href="../mypage/mypage.html" style="text-decoration: none; color: white;">나의 동아리</a></li>
+            </ul>
+            <ul class="nav-bar-r">
+                <li>
+                    <div id="search-bar">
+                        <input id="input" placeholder="어떤 동아리를 찾으시나요?">
+                        <div class="search-btn">
+                            <img src="./img/search.png" alt="" width="18px" height="18px">
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="main">
+        <div id="main-left-box">
+            <div id="user-box">
+                <div id="user-box-up">
+                    <div id="user-pic">
+                        <img src="./img/user_pic.png" alt="">
+                    </div>
+                    <div id="user-name-text">
+                        <p>ooo님</p>
+                    </div>
+                </div>
+                <div id="user-box-dn">
+                    <div class="user-box-dn-btn"><p><a href="../mypage/mypage.html" style="text-decoration: none; color: #FFFFFF">마이페이지</a></p></div>
+                    <div class="user-box-dn-btn"><p><a href="../login/login/login.html" style="text-decoration: none; color: white;">로그아웃</a></p></div>
+                </div>
+            </div>
+            <div id="my-group">
+                <p>나의 동아리</p>
+                <ul>
+                    <li><a href="#" style="text-decoration: none; color: #616161">동아리 1</a></li>
+                    <li><a href="#" style="text-decoration: none; color: #616161">동아리 2</a></li>
+                    <li><a href="#" style="text-decoration: none; color: #616161">동아리 3</a></li>
+                    <p><a href="#" style="text-decoration: none; color: #616161">더보기</a></p>
+                </ul>
+            </div>
+            <div id="myMenu">
+                <p id="myHeader">MY PAGE</p>
+                <p id="menu1" class="menu_line">나의 활동</p>
+                <ul id="category">
+                    <a href="file/myGroup.html" target="iframe"><li>나의 동아리</li></a>
+                    <a href="file/myWrite.html" target="iframe"><li>내가 쓴 글</li></a>
+                    <a href="file/myComment.html" target="iframe"><li>내가 쓴 댓글</li></a>
+                    <a href="file/lastLook.html" target="iframe"><li>최근에 본 동아리</li></a>
+                    <a href="file/applySit.html" target="iframe"><li>지원 현황</li></a>
+                    <a href="file/extraSave.html" target="iframe"><li>지원서 임시 저장함</li></a>
+                </ul>
+                <p id="menu2" class="menu_line">정보 수정</p>
+                <ul id="categor2">
+                    <a href="file/changePwd1.html" target="iframe"><li>비밀번호 변경</li></a>
+                    <a href="file/excitingSec.html" target="iframe"><li>관심분야 변경</li></a>
+                    <a href="file/changeProfile.html" target="iframe"><li>프로필 변경</li></a>
+                </ul>
+            </div>
+        </div>
+        <div id="main-center-box">
+            <iframe name="iframe" src="./file/myㄴGroup.html">
+			</iframe>
+        </div>
+    </div>
+    <footer>Copyright(c) 2021<br>Web Developed by MUTSA2TEAM</footer>
+</body>
+
+</html>
